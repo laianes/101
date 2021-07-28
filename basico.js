@@ -1,5 +1,5 @@
-// Tipos primários.
-// number (número), string (caractere), bool (boleano) e null (nulo)
+// VARIAVEIS = Uma variável corresponde a uma posição ou espaço de memória e pode guardar um valor.
+// TIPOS DE VARIAVEIS: number (número), string (caractere), bool (boleano) e null (nulo)
 
 const nome = 'Laiane Silva'
 const idade = 25
