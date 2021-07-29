@@ -1,3 +1,10 @@
-// Fazer a declaração de variaveis para 2 semestres da faculdade (semestre_1, semestre_2) e calcular a media (media).
-// LOGICA: media = (semestre_1 + semestre_2) / 2
+const notaPrimeiroSemestre = 2 
+const notaSegundoSemestre = Math.random() * 10
 
+const mediaFinal = (notaPrimeiroSemestre + notaSegundoSemestre) / 2 
+
+if (mediaFinal < 5){
+  console.log('Infelizmente você foi reprovado com a média: ' + mediaFinal)
+} else {
+  console.log('Parabéns você foi aprovado com a média: ' + mediaFinal)
+}
